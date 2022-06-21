@@ -1,24 +1,17 @@
 <template>
+        <div>
+                <bookable-list-item> </bookable-list-item>
 
-<div>
-        <bookable-list-item> </bookable-list-item>
-        <bookable-list-item> </bookable-list-item>
-        <bookable-list-item> </bookable-list-item>
-        <bookable-list-item> </bookable-list-item>
-
-</div>
-
+        </div>
 </template>
 
 <script>
 import  BookableListItem  from "./BookableListItem";
 
 export default {
-   
    components: {
     BookableListItem,
-   }
-
+   }    
 };
 </script>
 

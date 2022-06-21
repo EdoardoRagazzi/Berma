@@ -1,26 +1,16 @@
 <template>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="card">
-                    <div class="card-header">First Component</div>
-
-                    <div class="card-body">carlotta puzza</div>
-
-
-                        <button class="btn">Ajax</button>
-                </div>
-            </div>
-        </div>
+    <div>
+        <example-component title="Cheap Villa" content="very cheap" v-bind:price="1000"> </example-component>
+ <example-component title="Cheap Villa 2" content="very cheap 2" v-bind:price="200"> </example-component>
     </div>
 </template>
  
 <script>
-
+import  ExampleComponent from "./ExampleComponent.vue";
 
 export default {
-    mounted() {
-
-    },
+   components: {
+    ExampleComponent,
+   }
 };
 </script>
